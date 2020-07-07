@@ -3,14 +3,14 @@ body {
   color: #333;
   margin: 33px;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 pre {
@@ -81,4 +81,35 @@ div {
 
 label {
   display: block;
+}
+
+
+.create_btn{
+  a{
+    font-size: 20px;
+  }
+}
+
+.field{
+  height: 100px;
+  label{
+    font-size: 25px;
+  }
+  input{
+    height: 30%;
+    font-size: 20px;
+  }
+  select{
+    height: 35%;
+    font-size: 20px;
+  }
+}
+.actions{
+  input{
+    font-size: 22px;
+  }
+}
+
+.show_data{
+  font-size: 20px;
 }
